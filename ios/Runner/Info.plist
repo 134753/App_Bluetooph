@@ -45,5 +45,17 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<!-- Autorisation pour utiliser le Bluetooth -->
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Cette application utilise le Bluetooth pour détecter les appareils à proximité.</string>
+
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Cette application utilise le Bluetooth pour se connecter aux appareils.</string>
+
+	<!-- Autorisation localisation nécessaire sur iOS 13+ -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Cette application nécessite l'accès à la localisation pour scanner les appareils Bluetooth.</string>
+
 </dict>
 </plist>
